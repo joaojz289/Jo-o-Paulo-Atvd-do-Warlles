@@ -1,0 +1,21 @@
+programa {
+funcao inicio() {
+//Declaração de variáveis
+real N1, N2, N3, N4, media_aritmedica
+
+//Entrada de Dados
+escreva ("Informe a primeira nota: ")
+leia(N1)
+escreva ("Informe a segunda nota: ")
+leia (N2)
+escreva ("Informe a terceira nota: ")
+leia(N3)
+escreva ("Informe a quarta nota: ")
+leia(N4)
+//Processamento
+media_aritmedica= (N1 + N2 + N3 + N4)/4
+
+//Saída de Dados
+escreva ("esta e a media aritmedica:", media_aritmedica)
+}
+}
