@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+   //Declaração de variáveis
+   real altura,peso_ideal
+   cadeia nome_completo
+   //Declaração de constantes
+   const real k=72.7
+   const inteiro b=58
+   //Entrada de dados
+   escreva("Informe o nome completo: ") 
+   leia("nome_completo")
+   escreva("Informe a altura: ")
+  leia(altura)
+  //Processamento
+  peso_ideal=(k*altura)-b
+  //Saída de dados
+  escreva("O peso ideal de",nome_completo, "é:",peso_ideal)
+  }
+}
