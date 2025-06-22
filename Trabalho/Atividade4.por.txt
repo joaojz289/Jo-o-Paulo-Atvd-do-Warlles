@@ -1,0 +1,41 @@
+Portugol:
+programa {
+funcao inicio() {
+
+//declaração de variavel
+real g1,g2,g3,media_aritimetica
+
+//entrada de dados
+escreva("informe o gasto no primeiro mes: ")
+leia(g1)
+escreva("informe o gasto no segundo mes")
+leia(g2)
+escreva ("informe o gasto no terceiro mes")
+leia(g3)
+
+// processamento
+media_aritimetica=(g1+g2+83)/3
+//saida dos dados
+escreva(" a media de gasto com combustivel E ",media_aritimetica)
+}
+}
+
+Pseudocodigo:
+Inicio
+    // declaração de variáveis
+    real: g1, g2, g3, media_aritmetica;   
+
+    // entrada de dados
+    escreva("Informe o gasto no primeiro mês: ");
+    leia(g1);
+    escreva("Informe o gasto no segundo mês: ");
+    leia(g2);
+    escreva("Informe o gasto no terceiro mês: ");
+    leia(g3);
+
+    // processamento
+    media_aritmetica = (g1 + g2 + g3) / 3; 
+
+    // saída dos dados
+    escreva("A média de gasto com combustível é ", media_aritmetica);
+Fim
